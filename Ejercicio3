@@ -1,0 +1,45 @@
+/*
+ *Dadas las variables de tipo int M = 6, T = 1, K = -10 
+ *indicar si la evaluación de estas expresiones daría 
+ *como resultado verdadero o falso:
+ *M > T
+ *T / K == -5
+ *(M+T == 7) || (M-T == 5)
+ */
+package ejercicio_3;
+
+/**
+ *
+ * @author Marvin_Diaz
+ */
+public class Ejercicio_3 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int M=6,T=1,K=-10;
+        
+        if(M>T){
+            System.out.println("Es Verdadero");
+        }
+        else{
+            System.out.println("Es Falso");
+        }
+        
+        if(T/K==-5){
+            System.out.println("Es Verdadero");
+        }
+        else{
+            System.out.println("Es Falso");
+        }
+        
+        if((M+T==7) || (M-T==5)){
+            System.out.println("Es Verdadero");
+        }
+        else{
+            System.out.println("Es Falso");
+        }
+    }
+    
+}

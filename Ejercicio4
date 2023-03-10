@@ -1,0 +1,44 @@
+/*
+ *Crear un arrelo que guarde e imprima 20 nombres de ciudades
+ */
+package ejercicio_4;
+
+import java.util.Arrays;
+
+/**
+ *
+ * @author Marvin_Diaz
+ */
+public class Ejercicio_4 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String[] Ciudad = new String[20];
+        Ciudad[0] = "Tokio";
+        Ciudad[1] = "Delhi";
+        Ciudad[2] = "Shanghai";
+        Ciudad[3] = "Sao Paulo";
+        Ciudad[4] = "Ciudad de México";
+        Ciudad[5] = "Dhaka";
+        Ciudad[6] = "Cairo";
+        Ciudad[7] = "Beijing";
+        Ciudad[8] = "Mumbai";
+        Ciudad[9] = "Osaka";
+        Ciudad[10] = "Karachi";
+        Ciudad[11] = "Estambul";
+        Ciudad[12] = "Buenos Aires";
+        Ciudad[13] = "Kolkata";
+        Ciudad[14] = "Kinshasa";
+        Ciudad[15] = "Manila";
+        Ciudad[16] = "Tianjin";
+        Ciudad[17] = "Múnich";
+        Ciudad[18] = "Nueva York";
+        Ciudad[19] = "París";
+        
+        //System.out.println(Arrays.toString(Ciudad));
+        Arrays.stream(Ciudad).forEach(System.out::println); 
+    }
+
+}

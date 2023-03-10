@@ -1,0 +1,26 @@
+/*
+ * Escribe un programa que imprima mediante 
+ * un ciclo los números pares del 2 al 100
+ */
+package ejercicio_5;
+
+/**
+ *
+ * @author Marvin_Diaz
+ */
+public class Ejercicio_5 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int i;
+        
+        for(i=2; i<=200; i++){
+            if(i%2==0){
+               System.out.println(i);
+            }   
+        }  
+    }
+    
+}

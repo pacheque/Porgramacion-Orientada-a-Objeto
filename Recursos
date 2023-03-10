@@ -1,0 +1,47 @@
+package recursoss;
+
+/**
+ *
+ * @author Marvin_Diaz
+ */
+public class Recursoss {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Recursos recur = new Recursos();
+        recur.metodo1();
+        recur.metodo2(22);
+        recur.metodo3(5, 5);
+        recur.metodo4(20);
+    }
+    public static class Recursos{
+    double multi;
+    int i;
+    
+        public void metodo1(){
+            System.out.println("Programacion Orientada a Objetos 2023");
+        }
+        
+        public void metodo2(int x){
+            if(x>=21){
+                System.out.println("Eres mayor de edad");
+            }
+            else{
+                System.out.println("Eres menor de edad");
+            }
+        }
+        public void metodo3(double a, double b){
+            multi=a*b;
+             System.out.println("La multiplicacion es:"+multi);   
+        }
+        public void metodo4(int x){
+            for(i=1; i<=x; i++){
+           System.out.println(i);
+        }  
+            
+        }
+    }
+    
+}

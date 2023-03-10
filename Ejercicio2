@@ -1,0 +1,39 @@
+/*
+ *Crear un programa que imprima en consola todas 
+     *las operaciones aritméticas de 4 números enteros 
+ *(suma, resta, multiplicación, divición)
+ */
+package ejercicio_2;
+
+/**
+ *
+ * @author Marvin_Diaz
+ */
+public class Ejercicio_2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        double suma, resta, multiplicacion, division =0;
+        
+        double num1=15;
+        double num2=20;
+        double num3=5;
+        double num4=9;
+        
+        suma= num1+num2+num3+num4;
+        resta= num1-num2-num3-num4;
+        multiplicacion= num1*num2*num3*num4;
+        
+        if(num2 !=0){
+            division=num1/num2/num3/num4;
+        }
+        System.out.println("La suma es:" + suma);
+        System.out.println("La resta es:" + resta);
+        System.out.println("La multiplicacion es:" + multiplicacion);
+        System.out.println("La division es:" + division);
+                
+    }
+    
+}
